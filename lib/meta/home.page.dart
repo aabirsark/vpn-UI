@@ -199,7 +199,7 @@ class LocationContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: constraints.maxHeight * 0.1,
+      height: constraints.maxHeight * 0.115,
       width: constraints.maxWidth * 0.85,
       decoration: BoxDecoration(
           color: locationBarColor, borderRadius: BorderRadius.circular(10)),

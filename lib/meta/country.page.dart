@@ -77,7 +77,7 @@ class LocationListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: constraints.maxHeight * 0.1,
+      height: constraints.maxHeight * 0.105,
       width: constraints.maxWidth * 0.85,
       decoration: BoxDecoration(
           color: canvasColor, borderRadius: BorderRadius.circular(10)),
@@ -102,7 +102,7 @@ class LocationListTile extends StatelessWidget {
           ),
           Text(
             data.countryName,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
           ),
           const Spacer(),
           Icon(
